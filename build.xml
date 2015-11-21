@@ -12,6 +12,8 @@
     <path id="demo_calculator.classpath">
         <pathelement location="bin"/>
     </path>
+    <target name="test">
+    </target>
     <target name="init">
         <mkdir dir="bin"/>
         <copy includeemptydirs="false" todir="bin">
