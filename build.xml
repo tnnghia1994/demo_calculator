@@ -54,8 +54,6 @@
             <classpath refid="demo_calculator.classpath"/>
         </java>
     </target>
-      
-    <target name="test"/>
-    
-    
+    <target name="test">
+    </target>
 </project>
