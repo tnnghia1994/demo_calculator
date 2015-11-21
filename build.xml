@@ -53,7 +53,8 @@
             <classpath refid="demo_calculator.classpath"/>
         </java>
     </target>
-      <target name="test" depends="run, clean">
-    </target>
+      
+    <target name="test" depends="run, clean"/>
+    
     
 </project>
