@@ -6,6 +6,6 @@ public class Main {
 	{
 		Add add = new Add();
 		int result = add.Add(10, 20);
-		System.out.println(result);
+		System.out.println(result)
 	}
 }
