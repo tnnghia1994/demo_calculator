@@ -49,6 +49,8 @@
         <antcall target="build"/>
     </target>
     <target name="Main">
-        
+    </target>
+    <target name="test">
+    </target>
     
 </project>
