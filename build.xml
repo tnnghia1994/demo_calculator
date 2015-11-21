@@ -3,7 +3,8 @@
               Any modifications will be overwritten.
               To include a user specific buildfile here, simply create one in the same
               directory with the processing instruction <?eclipse.ant.import?>
-              as the first entry and export the buildfile again. --><project basedir="." default="build" name="demo_calculator">
+              as the first entry and export the buildfile again. -->
+              <project basedir="." default="build" name="demo_calculator">
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="../../eclipse/"/>
     <property name="debuglevel" value="source,lines,vars"/>
@@ -54,7 +55,7 @@
         </java>
     </target>
       
-    <target name="test" depends="run, clean"/>
+    <target name="test"/>
     
     
 </project>
