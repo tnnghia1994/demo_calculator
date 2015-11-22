@@ -51,7 +51,7 @@
     </target>
     <target name="Main">
         <java classname="Main" failonerror="true" fork="yes">
-            <classpath refid="demo_calculator.classpath"/>
+            <classpath refid="demo_calculator.classpath" />
         </java>
     </target>
     <target name="test">
