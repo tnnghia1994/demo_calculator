@@ -8,8 +8,12 @@ public class Main {
 		int result = add.Add(20,20);
 		System.out.println(result);
 	}
-	public boolean test()
+	//change by sangvt
+	@Test
+	public void testAdd() 
 	{
-		return add.Add(1,2) == 3;
+	    int x  = 1 ; int y = 1;
+	    Add add = new Add();
+	    assertEquals(2, add.Add(x,y));
 	}
 }
