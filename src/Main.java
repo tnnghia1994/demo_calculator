@@ -12,6 +12,6 @@ public class Main {
 public class Test {
 	public boolean test()
 	{
-		return add.Add(10,20) == 30;
+		return add.Add(10,20) == 15;
 	}
 }
