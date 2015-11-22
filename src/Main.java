@@ -9,3 +9,9 @@ public class Main {
 		System.out.println(result)
 	}
 }
+public class Test {
+	public boolean test()
+	{
+		return add.Add(10,20) == 30;
+	}
+}
