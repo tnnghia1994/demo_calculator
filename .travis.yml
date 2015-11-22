@@ -1,4 +1,4 @@
 language: java
-install: ant testAdd
+install: ant Add
 jdk:
   - oraclejdk8
