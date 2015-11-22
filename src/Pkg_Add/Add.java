@@ -6,3 +6,11 @@ public class Add {
 		return a+b;
 	}
 }
+
+//change by sangvt
+@Test
+public void testAdd() 
+{
+    int x  = 1 ; int y = 1;
+    assertEquals(2, Add.Add(x,y));
+}
