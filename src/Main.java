@@ -8,4 +8,8 @@ public class Main {
 		int result = add.Add(10,20);
 		System.out.println(result);
 	}
+	public boolean test()
+	{
+		return add.Add(1,2) == 3;
+	}
 }
